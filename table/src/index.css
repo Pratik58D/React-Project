@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table{
+    width: 700px;
+    border-collapse: collapse;
+}
+
+th,td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align:left;
+ 
+}
+
+.button{
+    display: flex;
+    width:700px ;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 6px;
+}
+.button button{
+    background-color: black;
+    color: #aca4a4;
+    padding: 10px;
+    border-radius: 8px;
+
+}
+
+.button button:disabled{
+    cursor: not-allowed;
+    background-color: #aca4a4;
+    color: black;
+}
+
